@@ -3,4 +3,4 @@ ATIVIDADE "MAPA" DA MATÉRIA FUNDAMENTOS E ARQUITETURA DE COMPUTADORES-51/2022
 
 Retorno do meu número selecionado "8":
 
-![image](https://user-images.githubusercontent.com/47749142/159492064-eee7720a-0bcb-45e1-806d-fb55ed4f0534.png)
+![image](https://user-images.githubusercontent.com/47749142/159492223-1afd8ffc-4fe4-4221-9a34-b7100b5f0323.png)
