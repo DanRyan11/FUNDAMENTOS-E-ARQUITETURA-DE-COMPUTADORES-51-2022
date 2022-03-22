@@ -1,5 +1,68 @@
 //MAPA - FUNDAMENTOS E ARQUITETURA DE COMPUTADORES - 51/2022
 
+const listaDeNumeros = [
+    {
+        "numero": "0",
+        "binary": "000000001000000000000000",
+        "hex": "",
+        "cor": ""
+    },
+    {
+        "numero": "1",
+        "binary": "111111111111101011111010",
+        "hex": "",
+        "cor": ""
+    },
+    {
+        "numero": "2",
+        "binary": "110100100110100100011110",
+        "hex": "",
+        "cor": ""
+    },
+    {
+        "numero": "3",
+        "binary": "010010110000000010000010",
+        "hex": "",
+        "cor": ""
+    },
+    {
+        "numero": "4",
+        "binary": "111011101000001011101110",
+        "hex": "",
+        "cor": ""
+    },
+    {
+        "numero": "5",
+        "binary": "111110101000000001110010",
+        "hex": "",
+        "cor": ""
+    },
+    {
+        "numero": "6",
+        "binary": "111111111010010100000000",
+        "hex": "",
+        "cor": ""
+    },
+    {
+        "numero": "7",
+        "binary": "111111111111111100000000",
+        "hex": "",
+        "cor": ""
+    },
+    {
+        "numero": "8",
+        "binary": "111111111100101111011011",
+        "hex": "",
+        "cor": ""
+    },
+    {
+        "numero": "9",
+        "binary": "000000000000000011111111",
+        "hex": "",
+        "cor": ""
+    }
+]
+
 const atividadeMapa = (meuNumero) => {
     let meusValores = {}
 
@@ -14,13 +77,13 @@ const atividadeMapa = (meuNumero) => {
         return `${r} ${g} ${b}`;
     }
 
-    document.querySelector('.table-responsive').querySelectorAll('tr').forEach(
-        (e, i) => {
-            const lines = e.querySelectorAll('p')
-            const numero = lines[0].innerHTML
+    listaDeNumeros.forEach(
+        (linha, i) => {
+
+            const numero = linha.numero
 
             if (numero == meuNumero) {
-                const binary = lines[1].innerHTML
+                const binary = linha.binary
                 const hex = convertendoBinarioParaHexadecimal(binary)
 
                 const data = {
