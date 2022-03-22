@@ -89,8 +89,8 @@ const atividadeMapa = (meuNumero) => {
                 const data = {
                     numero,
                     binary,
-                    hex,
-                    cor: hexToRgb(hex)
+                    cor: hexToRgb(hex),
+                    hex : '#'+hex,
                 }
 
                 meusValores = { ...data }
