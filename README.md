@@ -1,3 +1,3 @@
-# FUNDAMENTOS-E-ARQUITETURA-DE-COMPUTADORES-51-2022
+# Atividades da faculdade unicessumar do curso SUPERIOR DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 
-Repositório de atividades da matéria MAPA-FUNDAMENTOS-E-ARQUITETURA-DE-COMPUTADORES-51-2022
+Repositório de atividades
